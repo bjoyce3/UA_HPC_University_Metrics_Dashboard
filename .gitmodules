@@ -1,0 +1,6 @@
+[submodule "code/HERD_Analysis"]
+	path = code/HERD_Analysis
+	url = https://github.com/CGDeer/HERD_Analysis.git
+[submodule "code/IPEDS_DATA"]
+	path = code/IPEDS_DATA
+	url = https://github.com/cbresloff/IPEDS_DATA.git
