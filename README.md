@@ -8,6 +8,15 @@ Engineers write these all the time. They've got a good way of thinking about pro
 1. Data Import and Cleanup 
 2. Data Analysis
 3. Visualization and Dashboard
+4. Consuming the final project
+    - Stakeholders should be able to access the dashboard easily
+      - No command line calls
+      - Login would be fine
+      - Always available but not necessarily always on
+    - Data should be easy to understand, play with, ask questions, and investigate
+      - Widgets with drop down to change information displayed
+      - Access to raw data (and output/download would be phenomenal)
+    - Responsive and robust enough to live demonstrate during talks or workshops
 
 ### Technical Requirements
 1. All data must be pulled from the original databases (i.e. HERD, IPEDS, etc)
