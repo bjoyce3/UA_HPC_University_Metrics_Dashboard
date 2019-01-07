@@ -27,9 +27,9 @@ Engineers write these all the time. They've got a good way of thinking about pro
   - Cleanup of data is scripted
   
 
-# How to Run This Project
-- Exosphere
-- Setup on Ubuntu 18.04 cloud computer
+# How to Setup This Project From Scratch
+1. Exosphere
+2. Setup on Ubuntu 18.04 cloud computer
     - `tmux`
     - `wget` and `tmux` were already installed
     - Setting up Redash using the Redash Docker image `wget https://raw.githubusercontent.com/getredash/redash/master/setup/setup.sh`
@@ -61,6 +61,16 @@ Engineers write these all the time. They've got a good way of thinking about pro
                 }  
                 ```
       - Started caddy in it's own tmux pane
+    - Setup Python 3 `sudo apt install python3-pip`
+    - Setup csv-to-sqlite `pip3 install csv-to-sqlite`
+3. Setup Data
+  1. Pull data using `wget`
+  2. Clean up data using `pandas` script
+    - Original data from HERD and IPEDS is extremely messy
+      - Breaks import into SQLite because HERD has blank columns (for looks apparently :|)
+      - 
+  3. Import into SQLite
+    - 
 
 ## Jupyter Notebooks
 - All Jupyter notebooks are available in this repository as [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
