@@ -70,7 +70,11 @@ Engineers write these all the time. They've got a good way of thinking about pro
       - Breaks import into SQLite because HERD has blank columns (for looks apparently :|)
       - 
   3. Import into SQLite
-    - 
+    - Put into /opt/redash/sqlite/ on Exosphere VM
+    
+4. Reconnect to Exosphere VM Terminal Multiplexor (TMUX) session to change anything
+  - SSH to Redash at UA Metrics
+  - `tmux a`
 
 ## Jupyter Notebooks
 - All Jupyter notebooks are available in this repository as [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
