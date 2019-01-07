@@ -9,7 +9,6 @@ Engineers write these all the time. They've got a good way of thinking about pro
     - Input data products needs to not be sacred
       - Shouldn't have to have access to special cleaned up data source to run the dashboard
       - No special permissions are required for accessing the public data (IPEDS and HERD)
-      - 
 2. Data Analysis
 3. Visualization and Dashboard
 4. Consuming the final project
@@ -28,7 +27,7 @@ Engineers write these all the time. They've got a good way of thinking about pro
   
 
 # How to Setup This Project From Scratch
-1. Exosphere
+1. [Exosphere](https://github.com/exosphere-project/exosphere)
 2. Setup on Ubuntu 18.04 cloud computer
     - `tmux`
     - `wget` and `tmux` were already installed
@@ -68,7 +67,6 @@ Engineers write these all the time. They've got a good way of thinking about pro
   2. Clean up data using `pandas` script
     - Original data from HERD and IPEDS is extremely messy
       - Breaks import into SQLite because HERD has blank columns (for looks apparently :|)
-      - 
   3. Import into SQLite
     - Put into /opt/redash/sqlite/ on Exosphere VM
     
